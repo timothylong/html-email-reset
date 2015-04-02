@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title></title>
 	<style type="text/css">
+		/* Gmail removes <body> from email, so we will create a fallback table (#body) with the same properties. */
 		body,#body {
 			width:100% !important;
 			height:100% !important;
@@ -33,7 +34,7 @@
 			pointer-events:none;
 			cursor:default;
 		}
-		/* Blue links in iOS */
+		/* Blue links in iOS (See: https://litmus.com/blog/remove-blue-links-ios) */
 		.appleLinks a {
 			color:[value];
 			text-decoration:none;
