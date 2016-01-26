@@ -27,21 +27,12 @@
 		a img {
 			border: 0 none;
 		}
-		/* Native phone/SMS links */
+		/* Native Blue Links on iOS (https://litmus.com/blog/update-banning-blue-links-on-ios-devices) */
 		a[href^="tel"],a[href^="sms"] {
 			text-decoration:none;
 			color:[value];
 			pointer-events:none;
 			cursor:default;
-		}
-		/* Blue links in iOS (See: https://litmus.com/blog/remove-blue-links-ios) */
-		.appleLinks a {
-			color:[value];
-			text-decoration:none;
-		}
-		.appleLinksWhite a {
-			color:[value];
-			text-decoration: none;
 		}
 	</style>
 </head>
@@ -52,7 +43,11 @@
 			<table border="0" cellpadding="0" cellspacing="0" width="600">
 				<tr>
 					<td align="center" valign="top">
-						Your Content
+						<!-- Your Content -->
+						<!--
+							Image Block with Styled ALT Tag (https://litmus.com/blog/the-ultimate-guide-to-styled-alt-text-in-email)
+							<img src="" width="100%" alt="Alternative Image Text" style="color: #697c52; font-style: italic; font-size: 30px;">
+						-->
 					</td>
 				</tr>
 			</table>
