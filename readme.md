@@ -1,4 +1,4 @@
-# HTML Email Reset
+# [HTML Email Reset](http://timothylong.com/examples/html-email-reset/)
 
 A starting point for writing consistent HTML email templates.
 
